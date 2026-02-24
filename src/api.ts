@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL || "http://167.99.7.192";
+const BASE = import.meta.env.VITE_API_URL || "";
 
 export interface Experiment {
   name: string;
